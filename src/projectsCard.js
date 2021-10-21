@@ -1,17 +1,16 @@
 import React from 'react'
 import projects from './projects'
 
-const ProjectsCard = props => {
+const ProjectsCard = () => {
 
     return(
-        <div className="project-card">
-                <>
-        {projects.map(({ name, language, description, picture, video }) => (
-        <p key={name}>Name: {name},  Language: {language} </p>
-      ))}
-    </>
-
-        </div>
+        <>     
+            {projects.map(({ name, language, description, picture, video }) => (
+                <div>
+                    <p key={name}>Name: {name},  Language: {language} </p>
+                </div>
+            ))}
+        </>
     )
 }
 
