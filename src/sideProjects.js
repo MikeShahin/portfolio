@@ -6,19 +6,20 @@ const sideProjects = [
     picture: "", 
     video: "" },
 
-    { name: "News Aggregator", 
-    language: "JavaScript", 
-    description: "This is a project I did following a General Assembly class on JavaScript. It pulls news articles from a variety of API sources and shows them to the user.",
-    github: "https://github.com/MikeShahin/News-aggregator-project/blob/master/README.md", 
-    picture: "", 
-    video: "" },
-
     { name: "Mikebot", 
     language: "Javascript/CoffeeScript", 
     description: "This project was to create a bot for slack. I created it so that users can get music suggestions, play games, and ask it simple math problems",
     github: "https://github.com/MikeShahin/Mikebot", 
     picture: "", 
+    video: "" },
+
+    { name: "News Aggregator", 
+    language: "JavaScript", 
+    description: "This is a project I did following a General Assembly class on JavaScript. It pulls news articles from a variety of API sources and shows them to the user.",
+    github: "https://github.com/MikeShahin/News-aggregator-project/blob/master/README.md", 
+    picture: "", 
     video: "" }
+
 ]
 
 export default sideProjects
