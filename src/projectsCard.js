@@ -1,11 +1,11 @@
 import React from 'react'
-import projects from './projects'
+import mainProjects from './mainProjects'
 
 const ProjectsCard = () => {
 
     return(
         <>     
-            {projects.map(({ name, language, description, picture, video }) => (
+            {mainProjects.map(({ name, language, description, picture, video }) => (
                 <div>
                     <p key={name}>Name: {name},  Language: {language} </p>
                 </div>
