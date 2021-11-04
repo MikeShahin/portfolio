@@ -8,24 +8,17 @@ class Header extends React.Component {
   render() {
     const link = {
       width: '100px',
-      padding: '12px',
-      margin: '0 6px 6px',
+    //   padding: '12px',
+    //   margin: '0 6px 6px',
       textDecoration: 'none',
       color: 'teal',
     }
     const { currentUser } = this.props
     return (
-      <div className="header">
-
-        <ul>
-            <li style={link}>
-                Mike Shahindoust
-            </li>
-            <li>|</li>
-            <li style={link}>
-                Github
-            </li>
-          </ul>
+      <div class="navbar">
+        <a href="">Mike Shahindoust</a>
+        <a href="https://github.com/MikeShahin">Github</a>
+        <a href="mailto: MikeShahindoust@gmail.com">Contact</a>
       </div>
     )
   }
