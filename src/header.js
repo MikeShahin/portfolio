@@ -16,8 +16,9 @@ class Header extends React.Component {
     const { currentUser } = this.props
     return (
       <div class="navbar">
-        <a href="">Mike Shahindoust</a>
+        <a href="#">Mike Shahindoust</a>
         <a href="https://github.com/MikeShahin">Github</a>
+        <a href="https://www.linkedin.com/in/mike-shahindoust-499665213/">Linkedin</a>
         <a href="mailto: MikeShahindoust@gmail.com">Contact</a>
       </div>
     )

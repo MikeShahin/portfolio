@@ -12,7 +12,15 @@ const ProjectsCard = () => {
                     <div className="main-projects">
                         <div>
                         <h2>{name}</h2>
+
+                        {video !== "" &&
+                            <iframe width="420" height="315"
+                            src={video}>
+                            </iframe> 
+                        }
+                        {picture !== "" && 
                         <img src={picture} alt="project pic" height="200"/>
+                        }
                         <h6>Language: {language}</h6>
                         </div>
                         <p>Description: {description}</p>
@@ -26,8 +34,10 @@ const ProjectsCard = () => {
             {sideProjects.map(({ name, language, description, picture, video }) => (
                 <>
                     <div className="side-projects">
-                        <h4>Name: {name}</h4>
-                        <h6>Language: {language}</h6>
+                        <div>
+                            <h4>{name}</h4>
+                            <h6>Language: {language}</h6>
+                        </div>
                         <p>Description: {description}</p>
                     </div>
                     <br>
