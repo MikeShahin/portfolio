@@ -13,6 +13,12 @@
   }
 }
 
+body {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(58, 61, 61);
+}
+
 /* .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -86,4 +92,11 @@
 /* Main content */
 .main {
   margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+.bio {
+  text-align: center;
+  padding-top: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
