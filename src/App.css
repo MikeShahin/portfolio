@@ -57,21 +57,23 @@ body {
   margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
 
+
 .bio {
   text-align: center;
-  padding-top: 100px;
-  padding-left: 500px;
-  padding-right: 500px;
+  padding-top: 3%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .main-projects {
   display: flex;
-  margin-left: 500px;
-  margin-right: 500px;
+  margin-left: 20%;
+  margin-right: 20%;
   border: 3px solid black;
   padding-top: 10px;
   justify-content: space-between;
 }
+
 .main-projects p {
   padding-top: 100px;
   margin-left: 100px;
@@ -88,16 +90,20 @@ body {
 
 .side-projects {
   display: flex;
-  margin-left: 600px;
-  margin-right: 600px;
+  margin-left: 20%;
+  margin-right: 20%;
   border: 3px solid black;
   padding-top: 10px;
   justify-content: space-between;
-
 }
+
 .side-projects p {
   padding-top: 50px;
   margin-left: 100px;
   margin-right: 100px;
-
 }
+
+.side-projects img {
+  margin-left: 20px;
+}
+

@@ -7,7 +7,7 @@ const ProjectsCard = () => {
     return(
         <>  
         <h1>Main Projects:</h1>   
-            {mainProjects.map(({ name, language, description, picture, video }) => (
+            {mainProjects.map(({ name, language, description, picture, video, github }) => (
                 <>
                     <div className="main-projects">
                         <div>
@@ -21,28 +21,29 @@ const ProjectsCard = () => {
                         {picture !== "" && 
                         <img src={picture} alt="project pic" height="200"/>
                         }
-                        <h6>Language: {language}</h6>
+                        <ul>Language: {language} || <a href={github}>Github</a></ul>
                         </div>
-                        <p>Description: {description}</p>
+                        <p>{description}</p>
                     </div>
                     <br>
                     </br>
                 </>
             ))}
 
-        <h2>Side Projects: </h2>
-            {sideProjects.map(({ name, language, description, picture, video }) => (
+        <h1>Side Projects: </h1>
+            {sideProjects.map(({ name, language, description, picture, github }) => (
                 <>
-                    <div className="side-projects">
-                        <div>
-                            <h4>{name}</h4>
-                            <h6>Language: {language}</h6>
-                        </div>
-                        <p>Description: {description}</p>
+                <div className="side-projects">
+                    <div>
+                    <h2>{name}</h2>
+                    <img src={picture} alt="project pic" height="200"/>
+                    <ul>Language: {language} || <a href={github}>Github</a></ul>
                     </div>
-                    <br>
-                    </br>
-                </>
+                    <p>{description}</p>
+                </div>
+                <br>
+                </br>
+            </>
             ))}
         </>
     )
