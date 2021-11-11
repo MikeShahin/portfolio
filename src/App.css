@@ -30,17 +30,14 @@ body {
   text-decoration: none;
 }
 
-/* Change background on mouse-over */
 .navbar a:hover {
   background: #ddd;
   color: black;
 }
 
-/* Main content */
 .main {
-  margin-top: 30px; /* Add a top margin to avoid content overlay */
+  margin-top: 30px;
 }
-
 
 .bio {
   text-align: center;
@@ -68,10 +65,6 @@ body {
   margin-left: 20px;
 }
 
-.main-projects img {
-  margin-left: 20px;
-}
-
 .side-projects {
   display: flex;
   margin-left: 20%;
@@ -95,4 +88,8 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+}
+
+h1 {
+  text-align: center
 }
