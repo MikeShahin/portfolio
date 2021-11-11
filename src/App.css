@@ -50,7 +50,8 @@ body {
   display: flex;
   margin-left: 20%;
   margin-right: 20%;
-  border: 3px solid black;
+  border: 5px solid black;
+  border-radius: 30px;
   padding-top: 10px;
   justify-content: space-between;
 }
@@ -71,7 +72,8 @@ body {
   margin-right: 20%;
   padding-top: 10px;
   justify-content: space-between;
-  border: 3px solid black;
+  border: 5px solid black;
+  border-radius: 30px;
 }
 
 .side-projects p {
@@ -84,12 +86,16 @@ body {
   margin-left: 20px;
 }
 
+.main-projects img {
+  margin-left: 20px;
+}
+
 .container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
 }
 
-h1 {
+.side {
   text-align: center
 }

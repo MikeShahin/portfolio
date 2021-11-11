@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import ProjectsCard from './projectsCard' 
+import MainProjectsCard from './MainProjectsCard';
+import SideProjectsCard from  './sideProjectsCard' 
 import Bio from './bio';
 import Header from './header';
 
@@ -13,7 +14,8 @@ class App extends Component {
           <Header />
           <Bio />
       <div className="container">
-          < ProjectsCard />
+          < MainProjectsCard />
+          < SideProjectsCard />
       </div>
       </>
     );
