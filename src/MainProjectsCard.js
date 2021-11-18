@@ -1,6 +1,5 @@
 import React from 'react'
 import mainProjects from './mainProjects'
-import sideProjects from './sideProjects'
 
 const MainProjectsCard = () => {
 
