@@ -6,7 +6,7 @@ const MainProjectsCard = () => {
 
     return(
         <>  
-        <h1>Main Projects:</h1>   
+        <h1>Projects:</h1>   
             {mainProjects.map(({ name, language, description, picture, video, github }) => (
                 <>
                     <div className="main-projects">

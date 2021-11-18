@@ -5,7 +5,6 @@ const MainProjectsCard = () => {
 
     return(
         <>  
-        <h1 className="side">Side Projects: </h1>
             {sideProjects.map(({ name, language, description, picture, github }) => (
                 <>
                 <div className="side-projects">
