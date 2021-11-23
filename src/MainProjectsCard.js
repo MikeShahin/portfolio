@@ -13,7 +13,7 @@ const MainProjectsCard = () => {
                         <h2>{name}</h2>
 
                         {video !== "" &&
-                            <iframe width="420" height="315"
+                            <iframe width="420" height="315" title="{name}"
                             src={video}>
                             </iframe> 
                         }
