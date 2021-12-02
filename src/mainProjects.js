@@ -1,8 +1,8 @@
 const mainProjects = [
 
-    // { name: "Protest Tracker", 
+    // { name: "Bay Area Shows", 
     // language: "Ruby/Sinatra", 
-    // description: "Protest trackers allows people to see protest events globally. Users who sign up for an account may also create new protest events. It uses Sinatara with Active Record to create a database used to persist data. The user can also edit or delete their own protest event while the program blocks users from editing or deleting events posted by others.", 
+    // description: "this website lets people see upcomming and previous shows/concerts in the Bay Area. Users who sign up for an account may also create new events. It uses Sinatara with Active Record to create a database used to persist data. The user can also edit or delete their own event while the program blocks users from editing or deleting events posted by others.", 
     // github: "https://github.com/MikeShahin/ProtestTracker",
     // picture: "", 
     // video: "https://www.youtube.com/embed/TvqgZyzq9NM" },
