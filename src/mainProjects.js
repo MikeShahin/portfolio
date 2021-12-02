@@ -1,11 +1,11 @@
 const mainProjects = [
 
-    { name: "Protest Tracker", 
-    language: "Ruby/Sinatra", 
-    description: "Protest trackers allows people to see protest events globally. Users who sign up for an account may also create new protest events. It uses Sinatara with Active Record to create a database used to persist data. The user can also edit or delete their own protest event while the program blocks users from editing or deleting events posted by others.", 
-    github: "https://github.com/MikeShahin/ProtestTracker",
-    picture: "", 
-    video: "https://www.youtube.com/embed/TvqgZyzq9NM" },
+    // { name: "Protest Tracker", 
+    // language: "Ruby/Sinatra", 
+    // description: "Protest trackers allows people to see protest events globally. Users who sign up for an account may also create new protest events. It uses Sinatara with Active Record to create a database used to persist data. The user can also edit or delete their own protest event while the program blocks users from editing or deleting events posted by others.", 
+    // github: "https://github.com/MikeShahin/ProtestTracker",
+    // picture: "", 
+    // video: "https://www.youtube.com/embed/TvqgZyzq9NM" },
 
     { name: "Praxis Post", 
     language: "Ruby/Rails", 
